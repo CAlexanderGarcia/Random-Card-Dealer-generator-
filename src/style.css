@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  border-radius: 18px;
+  border: 1px solid;
+  -moz-box-shadow: 0.2em 0.2em 0.5em #333;
+  -webkit-box-shadow: 0.2em 0.2em 0.5em #333;
+  box-shadow: 0.2em 0.2em 0.5em #333;
+}
+
+.icon-left {
+  font-size: 90px;
+  margin-left: 15px;
+}
+.icon-left.♥ {
+  color: red;
+}
+
+.icon-right {
+  font-size: 90px;
+  margin-right: 10px;
+}
+
+.number {
+  font-size: 80px;
+}
